@@ -9,6 +9,10 @@
 
 - Example:
 
+![IAM Groups Example](/1%20-%20IAM%20AWS%20CLI/images/1-IAMGroupsExample.drawio.svg)
+
+**Figure 1:** *This diagram illustrates an example of IAM groups in AWS. Charles and David belongs to more than one group ; Fred belongs to none.*
+
 
 ### Permissions
  - We create users and groups in order to allow them to use the AWS account based on permissions named __policies__
