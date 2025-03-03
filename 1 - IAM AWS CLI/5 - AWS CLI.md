@@ -1,0 +1,28 @@
+# AWS CLI
+- Command Line Interface
+- A tool that enables you to interact with aws services using commands in your command-line shell
+- Direct access to the public APIs of AWS services
+- It makes possible for a user to develop scripts to manage an account's resources
+- Open Source: The AWS CLI is open source and available on [GitHub](https://github.com/aws/aws-cli).
+- **Cross-Platform**: Available on Windows, macOS, and Linux.
+- **Configuration**:
+  - Uses a configuration file (`~/.aws/config`).
+  - Uses a credentials file (`~/.aws/credentials`) to manage access keys and regions.
+- **Profiles**: Supports multiple named profiles to manage different sets of credentials and configurations.
+- **Output Formats**: Supports multiple output formats including JSON, text, and table for easier parsing and readability.
+- **Pagination**: Handles pagination for commands that return large amounts of data.
+- **AWS CLI v2**:
+  - The latest version includes new features like AWS Single Sign-On (SSO) support.
+  - Improved installers and more.
+- **Command Structure**: Commands follow a structure: `aws <service> <operation> [options and parameters]`.
+- **Help and Documentation**:
+  - Extensive help is available using the `--help` option.
+  - Comprehensive documentation is provided online.
+- **Auto-Prompt**: AWS CLI v2 includes an auto-prompt feature to help users discover and use commands more efficiently.
+- **Integration with AWS Services**: Can be used with all AWS services, including EC2, S3, RDS, Lambda, and more.
+- **Security**:
+  - Supports IAM roles.
+  - Supports temporary security credentials.
+  - Supports MFA (Multi-Factor Authentication).
+- **Environment Variables**: Can be configured using environment variables for credentials and configuration settings.
+- **Plugins**: Supports plugins to extend functionality.
