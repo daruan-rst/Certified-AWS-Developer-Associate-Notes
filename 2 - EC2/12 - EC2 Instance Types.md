@@ -42,3 +42,4 @@
     - Cache for in-memory databases
     - Data warehousing applications
     - Distributed File Systems
+- The EC2 User data script runs with the root user

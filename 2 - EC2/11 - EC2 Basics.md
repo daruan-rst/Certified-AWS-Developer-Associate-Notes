@@ -21,3 +21,14 @@
 - Network card: speed of the card, public IP address
 - Firewall rules: security group
 - Bootstrap script dto configure the instance at first launch: EC2 User Data
+
+### EC2 User Data
+
+- It is possible to bootstrap our instances using an EC2 User Data Script
+- Bootstraping means launching commands when a machine starts 
+- That script is only run once at the instance first start
+- EC2 user data is used to automate boot tasks such as:
+    - Installing updates
+    - Installing software
+    - Downloading common files from the internet 
+    
