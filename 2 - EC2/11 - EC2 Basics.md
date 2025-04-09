@@ -20,7 +20,7 @@
     - Hardware-attached (EC2 instance store)
 - Network card: speed of the card, public IP address
 - Firewall rules: security group
-- Bootstrap script dto configure the instance at first launch: EC2 User Data
+- Bootstrap script to configure the instance at first launch: EC2 User Data
 
 ### EC2 User Data
 

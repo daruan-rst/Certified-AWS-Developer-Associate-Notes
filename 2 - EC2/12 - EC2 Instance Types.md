@@ -13,7 +13,7 @@
 #### General Purpose
 - Great for a diversity of workloads such as webservers or code repositories
 - Good Balance Between:
-    - COmpute
+    - Compute
     - Memory
     - Networking
 
