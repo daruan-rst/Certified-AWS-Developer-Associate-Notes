@@ -1,5 +1,5 @@
 # IAM Password Policy
- - The stronger the password, the higher security for your account has
+ - The stronger the password, the higher security your account has
  - In AWS it is possible to set up a password policy with diferent options:
     - Minimum password length
     - Require specific character types:
