@@ -36,3 +36,39 @@
     - Instance Size (e.g. m5.xlarge, m5.2xlarge)
     - OS (e.g. Linux, Windows)
     - Tenancy (Host, Dedicated, Default)
+
+## EC2 Spot Instances
+
+- Can get a discount of up to 90% compared to on-demand
+- Instances that you can "lose" at any point of time if you max price is less than  the current spot price
+- The MOST cost-efficient instances in AWS 
+- Useful for workloads that are resilient to failure:
+    - Batch jobs
+    - Data Analysis
+    - Image Processing
+    - Any distributed workloads
+- Not suitable fot critical jobs or databases
+
+## EC2 Dedicated Hosts
+- A physical server with EC2 instance capacity fully dedicated to your usecase
+- Allows you to address compliance requirements and use your existing server-bound software licenses (per-socket, per-core, per-VM software licenses)
+- Purchasing options: 
+    - On-demand: pay per second for active dedicated host
+    - Reserved: 1 or 3 years (No upfront, Partial Upfront or All upfront)
+- The most expensive option
+- Useful for software that have complicated licensing model (BYOL - Bring you own license)
+- Useful for companies that have strong regulatory or compliance needs
+
+## EC2 Dedicated Instances
+- Instances run on hardware that's dedicated to you
+- May share hardware with other instances in the same account
+- No control over instances placement (can move hardware after Stop/Start)
+
+## EC2 Capacity Reservations
+- Reserve On-Demmand instnaces capacity in a specific AZ for any duration
+- You always have access to EC2 capacity when you need it
+- No time commitment (create/ cancel anytime), no billing discounts
+- The only purpose is to reserve capacity 
+- Combine with regional reserved instances and Saving Plans to benefit from billing discounts
+- You're charged at on-demmand rate whether you run instances or not
+- Suitable for short-term, uninterrupted workloads that need to be in a specific AZ
