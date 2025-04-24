@@ -64,6 +64,19 @@
 - May share hardware with other instances in the same account
 - No control over instances placement (can move hardware after Stop/Start)
 
+|                 Characteristic                | Dedicated Instances | Dedicated Hosts |
+|:---------------------------------------------:|:-------------------:|:---------------:|
+| Enables the use of dedicated physical servers |          X          |        X        |
+|              Per instance billing             |          X          |                 |
+|                Per host billing               |                     |        X        |
+|     Visibility of sockets, cores, host ID     |                     |        X        |
+|     Affinity between a host and instance      |                     |        X        |
+|          Targeted instance placement          |                     |        X        |
+|          Automatic instance placement         |          X          |        X        |
+|    Add capacity using an allocation request   |                     |        X        |
+
+**Table 1:** *Differences between Dedicated Instances and Dedicated Hosts*
+
 ## EC2 Capacity Reservations
 - Reserve On-Demmand instnaces capacity in a specific AZ for any duration
 - You always have access to EC2 capacity when you need it
