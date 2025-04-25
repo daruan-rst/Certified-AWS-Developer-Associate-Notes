@@ -85,3 +85,19 @@
 - Combine with regional reserved instances and Saving Plans to benefit from billing discounts
 - You're charged at on-demmand rate whether you run instances or not
 - Suitable for short-term, uninterrupted workloads that need to be in a specific AZ
+
+---
+
+## Summary Table
+
+| Pricing Model       | Commitment | Flexibility | Potential Savings | Ideal For                                 |
+|---------------------|------------|-------------|-------------------|-------------------------------------------|
+| On-Demand           | None       | High        | None              | Short-term, unpredictable workloads       |
+| Reserved Instances  | 1 or 3 yrs | Low         | Up to 72%         | Steady-state, predictable workloads       |
+| Savings Plans       | 1 or 3 yrs | Medium      | Up to 72%         | Consistent usage with some flexibility    |
+| Spot Instances      | None       | High        | Up to 90%         | Fault-tolerant, flexible applications     |
+| Dedicated Hosts     | 1 or 3 yrs | Low         | Varies            | Compliance and licensing requirements     |
+| Capacity Reservations| Flexible  | Medium      | None              | Guaranteed capacity needs                 |
+
+---
+
