@@ -23,6 +23,11 @@
 - Have a provisioned capacity (size in GBs and IOPS)
     = You get billed for all the provisioned capacity
 
+### EBS Example
+
+
+![EbsVolume-example](/3%20-%20EBS/images/1-EbsVolume-example.svg)
+
 
 ___
 
