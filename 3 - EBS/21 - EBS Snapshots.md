@@ -14,5 +14,5 @@
 - Specify retention (from 1 day to year 1)
 <br>
 
-#### EBS Snapshot Archive
+#### First Snapshot Restore
 - Force full initialization of snapshot to have no latency on the first use
