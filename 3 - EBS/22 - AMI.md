@@ -15,3 +15,7 @@
 - Stop the instance (for data integrity)
 - Build an AMI - this will also create EBS snapshots
 - Launch instances from other AMIs
+
+<br><br>
+
+![AMI-example](/3%20-%20EBS/images/2-AMI-process.svg)
