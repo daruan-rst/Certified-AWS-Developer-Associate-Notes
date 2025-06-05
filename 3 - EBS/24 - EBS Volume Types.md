@@ -15,3 +15,11 @@
 - Cost effective storage, low-latency
 - System boot volumes, Virtual desktops, Development and test environments
 - The size can vary between 1Gb to 16TB
+- gp3: 
+    - Baseline of 3000 IOPS and thoughput of 125MiB/s
+    - Can increase the IOPS up to 16000 and throughput up to 1000 MiB/s independently  
+- gp2: 
+    - Small gp2 volumes can burst IOPS to 3000
+    - Size of the volume and IOPS are linked, max IOPS is 16000
+    - 3 IOPS per GB, means at 5334 GB we are at the max IOPS
+
