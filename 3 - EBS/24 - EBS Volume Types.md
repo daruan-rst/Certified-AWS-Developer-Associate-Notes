@@ -10,6 +10,7 @@
 - Only gp2/gp3 and io1/io2 can be used as boot volumes
 
 <br><br>
+
 ### EBS Volume types Use cases
 #### General purpose SSDs
 - Cost effective storage, low-latency
@@ -23,3 +24,27 @@
     - Size of the volume and IOPS are linked, max IOPS is 16000
     - 3 IOPS per GB, means at 5334 GB we are at the max IOPS
 
+<br><br>
+
+#### Provisioned IOPS (PIOPS) SSD
+- Critical business applications with sustained IOPS performance
+- Applicaitons that need more than 16000 IOPS
+- Great for database workloads (sensitive to storage performance and consistency)
+- io1 / io2 ( 4GiB - 16 GiB)
+    - Max PIOPS: 64000 for Nitro EC2 instances & 32000 for other
+    - Can increase PIOPS independently from storage size
+- io2 Block Express (4 GiB - 64 GiB)
+    - Sub-milliosecond latency
+    - Max PIOPS: 256000 with an IOPS: GiB ratio of 1000 : 1
+- Supports EBS Multi-attatch
+
+#### Hard Disk Drives (HDD)
+- Cannot be a boot volume
+- 125 GiB to 16 TiB
+- Throughput Optimized HDD (st1)
+    - Big Data, Data Warehouses, Log Processing
+    - Max throughput of 500 MiB/s - max IOPS 500  
+- Cold HDD (sc1)
+    - For data that is infrequently accessed
+    - Scenarios where lowest cost is important
+    - Max throughput 250 MiB/s - max IOPS 250
