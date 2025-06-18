@@ -17,3 +17,11 @@
 <br><br>
 
 - POSIX File System (~Linux) that has a standart file API
+- File system scales automatically, pay-per-use, no capacity planning!
+
+#### Performance and storage classes
+- EFS Scale
+    - 1000s of concurrent NFS clients, 10+ GBs of thtoughput
+    - Grow to Petabyte-scale network file system automatically
+- Performance mode (set at EFS creation time)
+    - General purpose(default) - latency-sensitive use cases (web server, CMS, etc ...)
