@@ -25,3 +25,9 @@
     - Grow to Petabyte-scale network file system automatically
 - Performance mode (set at EFS creation time)
     - General purpose(default) - latency-sensitive use cases (web server, CMS, etc ...)
+- Thoughput mode
+    - Bursting - 1TB = 50 MiB/s + burst of up to 100 MiB/s
+    - Provisioned - set your thoughput regardless of storage size, ex: 1GiB/s for 1TB storage
+    - Elastic - automatically scales thoughput up or down on your workloads
+        - Up to 3 GiB/s for reads and 1 GiB/s for writes
+        - Used for unpredicted workloads
