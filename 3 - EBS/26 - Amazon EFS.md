@@ -19,7 +19,7 @@
 - POSIX File System (~Linux) that has a standart file API
 - File system scales automatically, pay-per-use, no capacity planning!
 
-#### Performance and storage classes
+#### Performance
 - EFS Scale
     - 1000s of concurrent NFS clients, 10+ GBs of thtoughput
     - Grow to Petabyte-scale network file system automatically
@@ -31,3 +31,16 @@
     - Elastic - automatically scales thoughput up or down on your workloads
         - Up to 3 GiB/s for reads and 1 GiB/s for writes
         - Used for unpredicted workloads
+
+<br><br>
+
+#### Storage classes
+
+- Storage tiers (lifecycle management feature - move file after N days)
+    - Standard: for frequently accessed files
+    - Infrequent Access (EFS-IA): cost to retrieve files, lower price to store. Enable EFS-IA with a lifecycle policy
+
+- Availabilty and durability
+    - Standart: multi-AZ, great for PROD
+    - One zone: One AZ, great for dev, backup enabled by default, compatible with IA (EFS One Zone-IA)
+    - Over 90% Savings 
