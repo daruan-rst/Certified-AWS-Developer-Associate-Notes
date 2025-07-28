@@ -43,4 +43,5 @@
 - Availabilty and durability
     - Standart: multi-AZ, great for PROD
     - One zone: One AZ, great for dev, backup enabled by default, compatible with IA (EFS One Zone-IA)
-    - Over 90% Savings 
+
+- Over 90% Savings 
