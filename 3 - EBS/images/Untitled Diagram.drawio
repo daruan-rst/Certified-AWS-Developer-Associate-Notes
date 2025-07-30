@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
+  <diagram name="Page-1" id="CVoORNoggcoFrB74OBPZ">
+    <mxGraphModel dx="906" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hLbKOVUEcP9RsFNTy1hX-2" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="55" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hLbKOVUEcP9RsFNTy1hX-3" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.volume;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="170" y="100" width="52.5" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="hLbKOVUEcP9RsFNTy1hX-5" value="Availability Zone 1" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hLbKOVUEcP9RsFNTy1hX-6" value="EBS" style="text;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="232.5" y="117.5" width="37.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hLbKOVUEcP9RsFNTy1hX-7" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="55" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hLbKOVUEcP9RsFNTy1hX-8" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.volume;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="335" y="100" width="52.5" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="hLbKOVUEcP9RsFNTy1hX-9" value="Availability Zone 2" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="325" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hLbKOVUEcP9RsFNTy1hX-10" value="EBS" style="text;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="397.5" y="117.5" width="37.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hLbKOVUEcP9RsFNTy1hX-12" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.volume;fillColor=light-dark(#008A00,#60FF60);fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="445" y="240" width="52.5" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="hLbKOVUEcP9RsFNTy1hX-11" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=light-dark(#000000,#0A0A0A);dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.bucket;strokeWidth=10;perimeterSpacing=3;" vertex="1" parent="1">
+          <mxGeometry x="435" y="260" width="75" height="78" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
