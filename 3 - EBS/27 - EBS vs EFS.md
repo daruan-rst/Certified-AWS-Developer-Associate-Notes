@@ -19,9 +19,19 @@
 terminated by default if the EC2 instance
 gets terminated. (you can disable that)
 
+<br><br>
+
+![EBS-Snapshot-example](/3%20-%20EBS/images/4-EBS-Snapshot.svg)
+
+<br><br>
+
 ### Elastic File System
 - Mounting 100s of instances across AZ
 - EFS share website files (WordPress)
 - Only for Linux Instances (POSIX)
 - EFS has a higher price point than EBS
 - Can leverage Storage Tiers for cost savings
+
+
+<br><br>
+![EFS](/3%20-%20EBS/images/5-EFS.svg)

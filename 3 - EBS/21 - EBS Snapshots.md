@@ -10,7 +10,7 @@
 <br>
 
 #### Recycle Bin for EBS Snapshot 
-- Setup rules to retain deleted snapshots so you can recovern them after an accidental deletion
+- Setup rules to retain deleted snapshots so you can recover them after an accidental deletion
 - Specify retention (from 1 day to year 1)
 <br>
 
