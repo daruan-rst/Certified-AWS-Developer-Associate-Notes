@@ -30,3 +30,12 @@
 - This enables **independent microservices** (e.g., user service and search service) to coexist behind the same ALB.
 - The ALB uses **routing rules** to direct traffic based on the **URL path** (e.g., `/user`, `/search`).
 
+## Target Groups
+- EC2 instances (can be managed by an Auto Scaling Group) – HTTP
+- ECS tasks (managed by ECS itself) – HTTP
+- Lambda functions – HTTP requests are translated into JSON events (less known use case, enables serverless behind ALB)
+- IP addresses – must be private IPs, including on-premises servers (via private IP registration)
+- ALB can route to multiple target groups simultaneously
+- Health checks are defined and executed at the target group level
+
+
