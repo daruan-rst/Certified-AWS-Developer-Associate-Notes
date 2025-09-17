@@ -38,4 +38,15 @@
 - ALB can route to multiple target groups simultaneously
 - Health checks are defined and executed at the target group level
 
+## Query Strings / Parameter Routing
+- ALB can route traffic based on **query string parameters** in the URL.  
+- Example scenario:
+  - ALB has two target groups:
+    - Target Group 1: EC2 instances in AWS.
+    - Target Group 2: On-premises private servers (registered via private IPs).
+- Rule-based routing example:
+  - If the URL contains `?Platform=Mobile` → route to **Target Group 1**.
+  - If the URL contains `?Platform=Desktop` → route to **Target Group 2**.
+- This demonstrates how ALB can apply **fine-grained routing** decisions using query strings or parameters.
+- Tutor note: Example use case is illustrative — real-world usage may vary.
 
