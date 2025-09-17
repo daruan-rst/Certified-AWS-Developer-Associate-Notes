@@ -2,7 +2,10 @@
 
 ### What is load balancing? 
  
-- Load balances are servers that forward traffic to multiple servers (e.g. EC2 instances) downstream
+- Load balances are servers that forward traffic to multiple servers (e.g. EC2 instances) downstream.
+
+![ELB-example](/4%20-%20AWS%20Fundamentals%20ELB%20ASG/images/1-Load-Balancing-Example.svg)
+
 
 ### Why use a load balancer?
 
