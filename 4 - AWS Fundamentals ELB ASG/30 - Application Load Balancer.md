@@ -62,3 +62,22 @@
   - If the URL contains `?Platform=Desktop` → route to **Target Group 2**.
 - This demonstrates how ALB can apply **fine-grained routing** decisions using query strings or parameters.
 - Tutor note: Example use case is illustrative — real-world usage may vary.
+
+## Advanced Rule Features
+- Rules can define custom behaviors:
+  - **Fixed responses** (e.g., return a 404 error with a custom message if path = `/error`).
+  - **Redirects** (e.g., `/old-path` → `/new-path` or enforce HTTPS).
+  - **Forwarding** to other target groups based on conditions (host header, path, query string, headers).
+- Rules are evaluated in order, allowing flexible routing logic.
+
+## Security Best Practices
+- Use **separate security groups**:
+  - ALB security group: allow HTTP/HTTPS from the internet.
+  - EC2 target security group: only allow inbound traffic **from the ALB security group** (not from the internet directly).
+- Prevents bypassing the ALB by accessing EC2 instances directly.
+
+## Comparison with Other Load Balancers
+- **ALB (Application Load Balancer)**: Layer 7, for HTTP/HTTPS, supports advanced routing.
+- **NLB (Network Load Balancer)**: Layer 4, TCP/UDP/TLS, ultra-high performance, millions of requests/sec with low latency.
+- **GLB (Gateway Load Balancer)**: Integrates with security appliances (firewalls, IDS/IPS) to inspect network traffic.
+- **CLB (Classic Load Balancer)**: Legacy, being phased out.
