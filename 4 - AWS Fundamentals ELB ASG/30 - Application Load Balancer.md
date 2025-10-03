@@ -36,6 +36,8 @@
 - This enables **independent microservices** (e.g., user service and search service) to coexist behind the same ALB.
 - The ALB uses **routing rules** to direct traffic based on the **URL path** (e.g., `/user`, `/search`).
 
+![ALB-HTTP-Based-Traffic](/4%20-%20AWS%20Fundamentals%20ELB%20ASG/images/3-ALB-HTTP-Based-Traffic.svg)
+
 ## Target Health & Failover
 - ALB continuously monitors registered targets with **health checks**.
 - If a target (e.g., an EC2 instance) becomes unhealthy or is stopped:
@@ -62,6 +64,8 @@
   - If the URL contains `?Platform=Desktop` → route to **Target Group 2**.
 - This demonstrates how ALB can apply **fine-grained routing** decisions using query strings or parameters.
 - Tutor note: Example use case is illustrative — real-world usage may vary.
+
+![ALB-Query-Parameters-Routing](/4%20-%20AWS%20Fundamentals%20ELB%20ASG/images/4-ALB-Query-Parameters-Routing.svg)
 
 ## Advanced Rule Features
 - Rules can define custom behaviors:
