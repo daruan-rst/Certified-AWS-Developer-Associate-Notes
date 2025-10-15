@@ -9,6 +9,8 @@
 - **Protocol:** Uses the **GENEVE protocol** on **port 6081** to encapsulate and forward traffic between the Gateway Load Balancer and its registered targets.
 - **Common Use Case:** Forcing **all inbound and outbound traffic** through inspection or security layers before reaching your application or other VPC resources.
 
+![GWLB](/4%20-%20AWS%20Fundamentals%20ELB%20ASG/images/7-GWLB.svg)
+
 ---
 
 ## How It Works
@@ -46,4 +48,6 @@
 - **Registration Options:**
   - By **instance ID** (for EC2-based appliances).
   - By **private IP** (for hybrid or external appliances).
+
+  ![GWLB-Target-Groups](/4%20-%20AWS%20Fundamentals%20ELB%20ASG/images/8-GWLB-Target-Group.svg)
 
