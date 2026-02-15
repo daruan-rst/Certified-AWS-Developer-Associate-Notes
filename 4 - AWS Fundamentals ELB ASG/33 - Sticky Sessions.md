@@ -12,6 +12,9 @@ session data
 - Enabling stickiness may bring imbalance to the
 load over the backend EC2 instances
 
+![Sticky-Sessions](/4%20-%20AWS%20Fundamentals%20ELB%20ASG/images/9-Sticky-Sessions.svg)
+
+
 ### Cookie names
 
 - Application-based Cookies
