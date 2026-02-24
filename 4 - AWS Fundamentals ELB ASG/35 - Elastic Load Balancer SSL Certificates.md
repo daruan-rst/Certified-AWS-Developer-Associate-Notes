@@ -38,4 +38,19 @@ Note:
 - Only works for ALB & NLB (newer generation), Cloudfront
 - Does not work for CLB (older gen)
 
+## Elastic Load Balancers - SSL certificates
+
+- Classic Load Balancer (v1)
+    - Support only one SSL certificate
+    - Must use multiple CLB for multiple hostname with multiple SSL certificates
+
+- Application Load Balancer (v2)
+    - Supports multiple listeners with multiple SSL certificates
+    - Uses Server Name Indication (SNI) to make it work
+
+- Network Load Balancer (v2)
+    - Supports multiple listeners with multiple SSL certificates
+    - Uses Server Name Indication (SNI) to make it work
+
+
 
