@@ -15,6 +15,8 @@
 
 ## Load Bancer - SSL certificates
 
+![Load-Balancer-SSL-Certificates](/4%20-%20AWS%20Fundamentals%20ELB%20ASG/images/11-Load-Balancer-SSL-Certificates.svg)
+
 1. Users connect from an HTTPS - and the S comes from SSL certificates - over the public internet to a Load Balancer
 2. Internally, the Load Balancer does a SSL termination
 3. In the backend, the Load Balancer comunicates with any EC2 instance via HTTP - which is not encrypted - but the trafic goes over a VPC, which is private.
