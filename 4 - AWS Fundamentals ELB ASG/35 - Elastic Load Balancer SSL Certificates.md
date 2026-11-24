@@ -32,6 +32,8 @@
 
 ## SSL - Server Name Indication
 
+![Server-Name-Indication](/4%20-%20AWS%20Fundamentals%20ELB%20ASG/images/12-Server-Name-Indication.svg)
+
 - SNI solves the problem of loading multiple SSL certificates onto one web server (to serve multple websites)
 - It's a newer protocol and requires the client to indicate the hostname of the target server in the initial SSL handshake
 - The server will then find the correct certificate, or return the default one
